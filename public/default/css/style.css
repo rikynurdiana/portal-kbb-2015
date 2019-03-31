@@ -1,0 +1,272 @@
+/* 
+    Document   : Synero
+    Created on : Aug 23, 2014, 07:07:07 PM
+    Author     : Harry
+    Description: Synero - one page portfolio & Agency template
+    Version    : V1.0
+*/
+
+/*-------------------------------------------------
+ =  Table of Css
+
+ 1.Import Google Fonts
+ 2.Page-Loader
+ 3.GENERAL
+ 4.PARALLAX
+ 5.NAVBAR
+ 6.HOME/ SLIDER
+ 7.SERVICES
+ 8.PORTFOLIO / WORKS
+ 9.HERO-SECTION
+ 10.TESTIMONIALS
+ 11.ABOUT
+ 12.TWITTWER-TWEET
+ 13.PRICING
+ 14.NEWS-LETTER
+ 15.BLOG
+ 16.CONTACT
+ 17.FOOTER
+ 18.BACK-TO-TOP
+-------------------------------------------------*/
+
+/* ---------------------------------------------------------------------- */
+/*  1.Import Google Fonts
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*  2.Page-Loader
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*  3.GENERAL
+/* ---------------------------------------------------------------------- */
+/*::selection{
+    background: rgba(225,36,68,0.5);
+    color: #ffffff;
+}
+::-moz-selection {
+    background: rgba(225,36,68,0.5);
+    color: #ffffff;
+}
+.btn-custom{
+    background-color: #e12444;
+    border: 2px solid #e12444;
+    color: #ffffff;
+    border-radius: 3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+}
+.btn-custom:hover,.btn-custom:focus{
+    background-color: transparent;
+    border: 2px solid #e12444;
+    color: #e12444;
+    outline: none;
+}
+.btn-black{
+    background-color: #333b4d;
+    border: 2px solid #333b4d;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+}
+.btn-black:hover{
+    background-color: transparent;
+    border: 2px solid #333b4d;
+}
+.title {
+    position: relative;
+    color: #666;
+    font-weight: 500;
+}
+.min-h-40{
+    min-height: 40px;
+}
+.margin-t-20{
+    margin-top: 20px;
+}
+.margin-t-50{
+    margin-top: 50px;
+}
+.margin-l-30{
+    margin-left: 30px;
+}
+.margin-b-30{
+    margin-bottom: 30px;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: #e12444 !important;
+}*/
+/* ---------------------------------------------------------------------- */
+/*  4.PARALLAX
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*  5.NAVBAR
+/* ---------------------------------------------------------------------- */
+
+/*-------------------------------------------------------------------*/
+/* 6.HOME/ SLIDER
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+/*  7.SERVICES
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+/*  8.PORTFOLIO / WORKS
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+/*  9.HERO-SECTION
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+/*  10.FUN-FACTS
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+/*  11.ABOUT
+/*-------------------------------------------------------------------*/
+.about{
+    position: relative;
+    /*padding: 20px 0px;*/
+    /*margin: 1px 0px;*/
+    /*border-top: 2px solid #e12444;*/
+    /*border-bottom: 2px solid #e12444;*/
+    background-color: #FFFFFF;
+    /*background: white;*/
+}
+.about-us h2{
+    color: #4c4c4c;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+.about-us h2 strong {
+    height: 6px;
+    width: 10%;
+    background: #e12444;
+    position: relative;
+    display: block;
+    margin-top: 18px;
+}
+.about-us h2 strong span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 69px;
+    height: 100%;
+    background: #e12444;
+    display: inline-block;
+}
+.about-us a{
+    margin-top: 20px;
+}
+.about-us p span {
+    font-size: 24px;
+    background: #DA251D;
+    color: #fff;
+    font-weight: 300;
+    padding: 4px 8px;
+    border-radius: 3px;
+    float: left;
+    display: block;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+/* TEAM */
+.team{
+    text-align: center;
+    /*padding-top: 100px;*/
+}
+.team img{
+    width: 180px;
+    height: 180px;
+}
+.team-member:hover h4{
+    color: #e12444;
+}
+.team p{
+    padding: 10px;
+}
+.team h6{
+    color: #bbb;
+}
+.member {
+    padding: 5px;
+    width: 190px;
+    height: 190px;
+    border-bottom: 1px solid #bbb;
+    background: #eee;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+.circle-img {
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+.circle-img2 {
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+/*-------------------------------------------------------------------*/
+/*  12.TESTIMONIALS
+/*-------------------------------------------------------------------*/
+.testimonials{
+    background:url("../img/pattern.png"),url("../img/img.png");
+    padding: 100px 0;
+}
+.testimonials h5{
+    color:#fff;
+    font-weight: 300;
+    line-height: 20px;
+    color: rgba(255,255,255,0.77);
+}
+.testimonials i{
+    color:#e12444;
+    font-size: 30px;
+}
+.testimonials p{
+    color:#e12444;
+}
+/*-------------------------------------------------------------------*/
+/*  13.PRICING
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+/*  14.NEWS-LETTER
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+/*  15.BLOG / BLOG-POST
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+/*  16.CONTACT
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+/*  17.FOOTER
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+/*  18.BACK-TO-TOP
+/*-------------------------------------------------------------------*/

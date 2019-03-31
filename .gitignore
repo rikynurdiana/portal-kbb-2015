@@ -1,0 +1,12 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+.phpintel/
+/public/gambar_berita/*
+/public/gambar_kegiatan/*
+/public/gambar_pengumuman/*
+/public/gambar_artikel/*
+/public/gambar_media/*
+/public/gambar_profile/*

@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width: 767px) {
+	body{
+		padding:0px !important;
+		margin:0px !important;
+	}
+	#master-wrapper{
+		background:url(/images/img/overlay-white.png) repeat !important;
+		padding-left:20px !important;
+		padding-right:20px !important;
+		margin:0px !important;
+	}
+	.remove-offset-on-phone{
+		margin-left:0px !important;
+	}
+	
+	.remove-pad-on-phone{
+		padding-left:0px !important;
+	}
+	
+	.navbar{
+		position:fixed !important;
+		top:0px !important;
+		z-index:99999 !important;
+	}
+	
+	#brand{
+		left:0px !important;
+	}
+	
+	.btn-navbar{
+		margin-right:20px !important;
+	}
+	
+	#main-nav{
+		padding-top:10px !important;
+		padding-left:20px !important;
+		padding-right:20px !important;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.navbar{
+		display:block !important;
+		position:fixed !important;
+		top:0px !important;
+		z-index:99999 !important;
+	}
+	#brand{
+		left:0px !important;
+	}
+	
+	.btn-navbar{
+		margin-right:20px !important;
+	}
+	.promo p {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0 80px 80px;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.8);
+	}
+	.portfolio li {
+    border-bottom: 4px solid #000000;
+    float: left;
+    margin: 0;
+    min-height: 235px;
+    width: 165px;
+	}
+	.filter li{
+		line-height:45px;
+	}
+}
+
+/*For safe side, We are forcing the display of navigation menu when browser window got resized to dekptop and above views */
+@media (min-width: 979px){
+	.nav-collapse {display: block !important;
+}

@@ -1,0 +1,126 @@
+/* -----------------------------------------
+   Font-face:
+----------------------------------------- */
+@font-face{ 
+font-family:"Open_Sans_R";
+src: url('fonts/open_sans/OpenSans-Regular-webfont.eot'); 
+src: 
+url('fonts/open_sans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), 
+url('fonts/open_sans/OpenSans-Regular-webfont.woff') format('woff'), 
+url('fonts/open_sans/OpenSans-Regular-webfont.ttf') format('truetype'), 
+url('fonts/open_sans/OpenSans-Regular-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"Nexa_Bold";
+src: url('fonts/nexa_light/nexa_bold-webfont.eot'); 
+src: 
+url('fonts/nexa_bold/nexa_bold-webfont.eot?#iefix') format('embedded-opentype'), 
+url('fonts/nexa_bold/nexa_bold-webfont.woff') format('woff'), 
+url('fonts/nexa_bold/nexa_bold-webfont.ttf') format('truetype'), 
+url('fonts/nexa_bold/nexa_bold-webfont.svg#webfont') format('svg'); 
+}
+
+
+@font-face{ 
+font-family:"neou_bold";
+src: url('fonts/neou_bold/neou-bold-webfont.eot'); 
+src: 
+url('fonts/neou_bold/neou-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+url('fonts/neou_bold/neou-bold-webfont.woff') format('woff'), 
+url('fonts/neou_bold/neou-bold-webfont.ttf') format('truetype'), 
+url('fonts/neou_bold/neou-bold-webfont.svg#webfont') format('svg'); 
+}
+
+
+@font-face{ 
+font-family:"neou_thin";
+src: url('fonts/neou_thin/neou-thin-webfont.eot'); 
+src: 
+url('fonts/neou_thin/neou-thin-webfont.eot?#iefix') format('embedded-opentype'), 
+url('fonts/neou_thin/neou-thin-webfont.woff') format('woff'), 
+url('fonts/neou_thin/neou-thin-webfont.ttf') format('truetype'), 
+url('fonts/neou_thin/neou-thin-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"bariol_regular";
+src: url('fonts/bariol_regular/bariol_regular-webfont.eot'); 
+src: 
+url('fonts/bariol_regular/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'), 
+url('fonts/bariol_regular/bariol_regular-webfont.woff') format('woff'), 
+url('fonts/bariol_regular/bariol_regular-webfont.ttf') format('truetype'), 
+url('fonts/bariol_regular/bariol_regular-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"liberation_Sans";
+src: url('fonts/liberation_sans_regular/liberationsans-regular-webfont.eot'); 
+src: 
+url('fonts/liberation_sans_regular/liberationsans-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+url('fonts/liberation_sans_regular/liberationsans-regular-webfont.woff') format('woff'), 
+url('fonts/liberation_sans_regular/liberationsans-regular-webfont.ttf') format('truetype'), 
+url('fonts/liberation_sans_regular/liberationsans-regular-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"Source_Sans";
+src: url('fonts/source_sans_pro/liberationsans-regular-webfont.eot'); 
+src: 
+url('fonts/source_sans_pro/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), 
+url('fonts/source_sans_pro/SourceSansPro-Regular.woff') format('woff'), 
+url('fonts/source_sans_pro/SourceSansPro-Regular.ttf') format('truetype'), 
+url('fonts/source_sans_pro/SourceSansPro-Regular.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"Bebas_Neue";
+src: url('fonts/bebas_neue/bebasneue-webfont.eot'); 
+src: 
+url('fonts/bebas_neue/bebasneue-webfont.eot?#iefix') format('embedded-opentype'), 
+url('fonts/bebas_neue/bebasneue-webfont.woff') format('woff'), 
+url('fonts/bebas_neue/bebasneue-webfont.ttf') format('truetype'), 
+url('fonts/bebas_neue/bebasneue-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"Ostrich_Sans_Regular";
+src: url('fonts/ostrich_sans_regular/ostrich_regular-webfont.eot'); 
+src: 
+url('fonts/ostrich_sans_regular/ostrich_regular-webfont.eot?#iefix') format('embedded-opentype'), 
+url('fonts/ostrich_sans_regular/ostrich_regular-webfont.woff') format('woff'), 
+url('fonts/ostrich_sans_regular/ostrich_regular-webfont.ttf') format('truetype'), 
+url('fonts/ostrich_sans_regular/ostrich_regular-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+font-family:"Ostrich_Sans_Black";
+src: url('fonts/ostrich_sans_black/ostrich_black-webfont.eot'); 
+src: 
+url('fonts/ostrich_sans_black/ostrich_black-webfont.eot?#iefix') format('embedded-opentype'), 
+url('fonts/ostrich_sans_black/ostrich_black-webfont.woff') format('woff'), 
+url('fonts/ostrich_sans_black/ostrich_black-webfont.ttf') format('truetype'), 
+url('fonts/ostrich_sans_black/ostrich_black-webfont.svg#webfont') format('svg'); 
+}
+
+p{
+	font-family:"Open_Sans_R";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+	color:#222;
+}
+.border-top{
+	padding-top: 20px;
+	border-top: solid 1px #aaa;
+}
+.border-bottom{
+	padding-bottom: 20px;
+	border-bottom: solid 1px #aaa;
+}
+.border-bottom-high{
+	border-bottom: solid 5px #f50000;
+}
+.notifier{
+	font-size: 24px !important;
+}
